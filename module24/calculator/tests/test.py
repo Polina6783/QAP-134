@@ -18,6 +18,3 @@ class TestCalc:
 
     def test_adding(self):
         assert self.calc.adding(self, 5, 7) == 12
-
-    def teardown(self):
-        print('Выполнение метода Teardown')
